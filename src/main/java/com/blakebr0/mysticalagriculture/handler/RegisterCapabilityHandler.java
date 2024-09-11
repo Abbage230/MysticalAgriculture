@@ -14,6 +14,7 @@ public final class RegisterCapabilityHandler {
     public void onRegisterCapabilities(RegisterCapabilitiesEvent event) {
         event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, ModTileEntities.AWAKENING_ALTAR.get(), (block, direction) -> block.getInventory());
         event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, ModTileEntities.AWAKENING_PEDESTAL.get(), (block, direction) -> block.getInventory());
+        event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, ModTileEntities.ESSENCE_VESSEL.get(), (block, direction) -> block.getInventory());
         event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, ModTileEntities.FURNACE.get(), EssenceFurnaceTileEntity::getSidedInventory);
         event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, ModTileEntities.HARVESTER.get(), (block, direction) -> block.getInventory());
         event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, ModTileEntities.INFUSION_ALTAR.get(), (block, direction) -> block.getInventory());

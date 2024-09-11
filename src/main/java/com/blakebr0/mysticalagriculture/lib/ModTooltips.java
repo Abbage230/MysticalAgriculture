@@ -3,8 +3,8 @@ package com.blakebr0.mysticalagriculture.lib;
 import com.blakebr0.cucumber.util.Tooltip;
 import com.blakebr0.mysticalagriculture.api.util.AugmentUtils;
 import com.blakebr0.mysticalagriculture.api.util.TinkerableUtils;
+import com.blakebr0.mysticalagriculture.client.ClientPlayerProxy;
 import net.minecraft.ChatFormatting;
-import net.minecraft.client.Minecraft;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.ItemStack;
 import net.neoforged.fml.ModList;
@@ -58,7 +58,7 @@ public final class ModTooltips {
     }
 
     public static Component getAddedByTooltip(String modid) {
-        var name = ModList.get().getModFileById(modid).getMods().get(0).getDisplayName();
+        var name = ModList.get().getModFileById(modid).getMods().getFirst().getDisplayName();
         return ModTooltips.ADDED_BY.args(name).build();
     }
 
@@ -66,7 +66,7 @@ public final class ModTooltips {
         tooltip.add(ModTooltips.AUGMENTS.build());
 
         var augments = AugmentUtils.getAugments(stack);
-        var player = Minecraft.getInstance().player;
+        var player = ClientPlayerProxy.getPlayer();
 
         for (int i = 0; i < slots; i++) {
             var augment = i < augments.size() ? augments.get(i) : null;

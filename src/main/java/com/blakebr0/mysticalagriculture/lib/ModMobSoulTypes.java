@@ -15,7 +15,8 @@ public final class ModMobSoulTypes {
 
     private static final Set<ResourceLocation> FISH_IDS = Sets.newHashSet(ResourceLocation.parse("minecraft:cod"), ResourceLocation.parse("minecraft:salmon"), ResourceLocation.parse("minecraft:tropical_fish"), ResourceLocation.parse("minecraft:pufferfish"));
     private static final Set<ResourceLocation> SLIME_IDS = Sets.newHashSet(ResourceLocation.parse("minecraft:slime"), ResourceLocation.parse("tconstruct:earth_slime"));
-    private static final Set<ResourceLocation> ZOMBIE_IDS = Sets.newHashSet(ResourceLocation.parse("minecraft:zombie"), ResourceLocation.parse("minecraft:zombie_villager"));
+    private static final Set<ResourceLocation> ZOMBIE_IDS = Sets.newHashSet(ResourceLocation.parse("minecraft:zombie"), ResourceLocation.parse("minecraft:zombie_villager"), ResourceLocation.parse("minecraft:husk"), ResourceLocation.parse("minecraft:drowned"));
+    private static final Set<ResourceLocation> SKELETON_IDS = Sets.newHashSet(ResourceLocation.parse("minecraft:skeleton"), ResourceLocation.parse("minecraft:stray"));
     private static final Set<ResourceLocation> SPIDER_IDS = Sets.newHashSet(ResourceLocation.parse("minecraft:spider"), ResourceLocation.parse("minecraft:cave_spider"));
 
     public static final MobSoulType PIG = new MobSoulType(MysticalAgriculture.resource("pig"), ResourceLocation.parse("minecraft:pig"), 8, 15771042);
@@ -28,7 +29,7 @@ public final class ModMobSoulTypes {
     public static final MobSoulType TURTLE = new MobSoulType(MysticalAgriculture.resource("turtle"), ResourceLocation.parse("minecraft:turtle"), 6, 44975);
     public static final MobSoulType ARMADILLO = new MobSoulType(MysticalAgriculture.resource("armadillo"), ResourceLocation.parse("minecraft:armadillo"), 6, 0xb67b76);
     public static final MobSoulType ZOMBIE = new MobSoulType(MysticalAgriculture.resource("zombie"), ZOMBIE_IDS, "zombie", 10, 7969893);
-    public static final MobSoulType SKELETON = new MobSoulType(MysticalAgriculture.resource("skeleton"), ResourceLocation.parse("minecraft:skeleton"), 10, 12698049);
+    public static final MobSoulType SKELETON = new MobSoulType(MysticalAgriculture.resource("skeleton"), SKELETON_IDS, "skeleton", 10, 12698049);
     public static final MobSoulType CREEPER = new MobSoulType(MysticalAgriculture.resource("creeper"), ResourceLocation.parse("minecraft:creeper"), 10, 894731);
     public static final MobSoulType SPIDER = new MobSoulType(MysticalAgriculture.resource("spider"), SPIDER_IDS, "spider", 10, 3419431);
     public static final MobSoulType RABBIT = new MobSoulType(MysticalAgriculture.resource("rabbit"), ResourceLocation.parse("minecraft:rabbit"), 6, 10051392);

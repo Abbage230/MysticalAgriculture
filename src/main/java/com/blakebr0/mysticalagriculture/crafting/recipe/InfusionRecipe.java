@@ -66,7 +66,7 @@ public class InfusionRecipe implements IInfusionRecipe {
         var result = this.result.copy();
 
         if (this.transferComponents) {
-            result.applyComponents(stack.getComponents());
+            result.applyComponents(stack.getComponentsPatch());
         }
 
         return result;

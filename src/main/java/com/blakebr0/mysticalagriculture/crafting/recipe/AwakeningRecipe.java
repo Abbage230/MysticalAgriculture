@@ -85,7 +85,7 @@ public class AwakeningRecipe implements IAwakeningRecipe {
         var result = this.result.copy();
 
         if (this.transferComponents) {
-            result.applyComponents(stack.getComponents());
+            result.applyComponents(stack.getComponentsPatch());
         }
 
         return result;

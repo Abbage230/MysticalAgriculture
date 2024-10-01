@@ -704,7 +704,7 @@
   "book.mysticalagriculture.entry.enchanter.page.1": "The Enchanter is a block that allows you to enchant your tools and armor using different crafting materials and Experience Essence. $(br2)The Enchanter can apply enchantments to both Books and tools/armor, similarly to an Anvil.",
 
   "book.mysticalagriculture.entry.elemental_essences": "Elemental Essences",
-  "book.mysticalagriculture.entry.elemental_essences.page.1": "Air, Earth, Water and Fire essences can be used in $(l:elemental/awakening_altar)Awakening Altar$() recipes using $(l:elemental/essence_vessel)Essence Vessels$().",
+  "book.mysticalagriculture.entry.elemental_essences.page.1": "Air, Earth, Water and Fire essences can be used in $(l:elemental/awakening_altar)Awakening Altar$() recipes using $(l:elemental/essence_vessel)Essence Vessels$(). $(br2)Elemental seeds can be planted on $(l:basics/essence_farmland)Tier 1 Essence Farmland$() for additional drops.",
   "book.mysticalagriculture.entry.cognizant_dust": "Cognizant Dust",
   "book.mysticalagriculture.entry.cognizant_dust.page.1": "Cognizant Dust is $(bold)usually$() obtained by killing a Wither or Ender Dragon using an $(l:tinkering/essence_tools)Essence Weapon$() enchanted with Mystical Enlightenment. $(br2)Higher levels of Mystical Enlightenment will increase the amount of dust dropped on kill.",
   "book.mysticalagriculture.entry.essence_vessel": "Essence Vessel",

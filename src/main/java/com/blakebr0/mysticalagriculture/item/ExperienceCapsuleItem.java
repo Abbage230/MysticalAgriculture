@@ -85,7 +85,7 @@ public class ExperienceCapsuleItem extends BaseItem {
     private static int getExperienceToTake(Player player) {
         // if they have progress towards the next level, then we give the player their progress
         // if they don't, then we need to give them everything in their current level
-        if (player.experienceProgress > 0.0F) {
+        if (player.experienceProgress > 0.01F) {
             var xpNeeded = player.getXpNeededForNextLevel();
             return Math.round(xpNeeded * player.experienceProgress);
         } else {
@@ -122,7 +122,6 @@ public class ExperienceCapsuleItem extends BaseItem {
             giveExperienceLevels(player, 1);
             player.experienceProgress /= (float) player.getXpNeededForNextLevel();
         }
-
     }
 
     // copy of Player#giveExperienceLevels

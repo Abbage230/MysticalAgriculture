@@ -34,7 +34,7 @@ public class EssenceHelmetItem extends BaseArmorItem implements ITinkerable {
 
     @Override
     public void inventoryTick(ItemStack stack, Level level, Entity entity, int slot, boolean isSelected) {
-        if (slot == 36 && entity instanceof Player player) {
+        if (slot == 39 && entity instanceof Player player) {
             for (var augment : AugmentUtils.getAugments(stack)) {
                 augment.onArmorTick(stack, level, player);
             }

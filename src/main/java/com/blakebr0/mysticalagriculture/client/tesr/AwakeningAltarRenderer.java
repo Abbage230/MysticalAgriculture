@@ -11,6 +11,8 @@ import net.minecraft.client.renderer.blockentity.BlockEntityRenderer;
 import net.minecraft.client.renderer.blockentity.BlockEntityRendererProvider;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.ItemDisplayContext;
+import net.minecraft.world.phys.AABB;
+import net.neoforged.neoforge.client.extensions.IBlockEntityRendererExtension;
 import net.neoforged.neoforge.client.model.data.ModelData;
 
 public class AwakeningAltarRenderer implements BlockEntityRenderer<AwakeningAltarTileEntity> {
@@ -65,5 +67,10 @@ public class AwakeningAltarRenderer implements BlockEntityRenderer<AwakeningAlta
     @Override
     public boolean shouldRenderOffScreen(AwakeningAltarTileEntity tile) {
         return true;
+    }
+
+    @Override
+    public AABB getRenderBoundingBox(AwakeningAltarTileEntity tile) {
+        return AABB.INFINITE;
     }
 }

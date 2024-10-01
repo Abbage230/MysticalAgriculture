@@ -11,6 +11,7 @@ import net.minecraft.client.renderer.blockentity.BlockEntityRenderer;
 import net.minecraft.client.renderer.blockentity.BlockEntityRendererProvider;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.ItemDisplayContext;
+import net.minecraft.world.phys.AABB;
 import net.neoforged.neoforge.client.model.data.ModelData;
 
 public class InfusionAltarRenderer implements BlockEntityRenderer<InfusionAltarTileEntity> {
@@ -59,5 +60,10 @@ public class InfusionAltarRenderer implements BlockEntityRenderer<InfusionAltarT
     @Override
     public boolean shouldRenderOffScreen(InfusionAltarTileEntity tile) {
         return true;
+    }
+
+    @Override
+    public AABB getRenderBoundingBox(InfusionAltarTileEntity tile) {
+        return AABB.INFINITE;
     }
 }

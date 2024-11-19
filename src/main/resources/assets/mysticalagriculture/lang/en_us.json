@@ -513,7 +513,7 @@
   "augmentType.mysticalagriculture.boots": "Boots",
 
   "augment.mysticalagriculture.absorption_i": "Absorption I",
-  "augment.mysticalagriculture.absorption_i.description": "Grants 2 absorption hearts.",
+  "augment.mysticalagriculture.absorption_i.description": "Grants 2 absorption hearts every 8 minutes.",
   "augment.mysticalagriculture.luck_i": "Luck I",
   "augment.mysticalagriculture.luck_i.description": "Grants Luck I.",
   "augment.mysticalagriculture.health_boost_i": "Health Boost I",
@@ -528,7 +528,7 @@
   "augment.mysticalagriculture.water_breathing": "Water Breathing",
   "augment.mysticalagriculture.water_breathing.description": "Grants Water Breathing.",
   "augment.mysticalagriculture.absorption_ii": "Absorption II",
-  "augment.mysticalagriculture.absorption_ii.description": "Grants 4 absorption hearts.",
+  "augment.mysticalagriculture.absorption_ii.description": "Grants 4 absorption hearts every 8 minutes.",
   "augment.mysticalagriculture.jump_boost_i": "Jump Boost I",
   "augment.mysticalagriculture.jump_boost_i.description": "Grants Jump Boost I.",
   "augment.mysticalagriculture.health_boost_ii": "Health Boost II",
@@ -545,7 +545,7 @@
   "augment.mysticalagriculture.blindness_resistance.description": "Prevents the Blindness effect.",
 
   "augment.mysticalagriculture.absorption_iii": "Absorption III",
-  "augment.mysticalagriculture.absorption_iii.description": "Grants 6 absorption hearts.",
+  "augment.mysticalagriculture.absorption_iii.description": "Grants 6 absorption hearts every 8 minutes.",
   "augment.mysticalagriculture.luck_ii": "Luck II",
   "augment.mysticalagriculture.luck_ii.description": "Grants Luck II.",
   "augment.mysticalagriculture.fire_resistance": "Fire Resistance",
@@ -580,7 +580,7 @@
   "augment.mysticalagriculture.slowness_resistance.description": "Prevents the Slowness effect.",
 
   "augment.mysticalagriculture.absorption_iv": "Absorption IV",
-  "augment.mysticalagriculture.absorption_iv.description": "Grants 8 absorption hearts.",
+  "augment.mysticalagriculture.absorption_iv.description": "Grants 8 absorption hearts every 8 minutes.",
   "augment.mysticalagriculture.poison_resistance": "Poison Resistance",
   "augment.mysticalagriculture.poison_resistance.description": "Prevents the Poison effect.",
   "augment.mysticalagriculture.jump_boost_iii": "Jump Boost III",
@@ -607,7 +607,7 @@
   "augment.mysticalagriculture.hunger_resistance.description": "Prevents the Hunger effect.",
 
   "augment.mysticalagriculture.absorption_v": "Absorption V",
-  "augment.mysticalagriculture.absorption_v.description": "Grants 10 absorption hearts.",
+  "augment.mysticalagriculture.absorption_v.description": "Grants 10 absorption hearts every 8 minutes.",
   "augment.mysticalagriculture.luck_iii": "Luck III",
   "augment.mysticalagriculture.luck_iii.description": "Grants Luck III.",
   "augment.mysticalagriculture.wither_resistance": "Wither Resistance",

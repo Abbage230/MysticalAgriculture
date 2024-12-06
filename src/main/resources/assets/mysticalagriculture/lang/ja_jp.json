@@ -266,7 +266,7 @@
     "enchantment.mysticalagriculture.mystical_enlightenment": "神秘の啓示",
     "enchantment.mysticalagriculture.mystical_enlightenment.desc": "エンダードラゴンとウィザーをエッセンスの武器で倒すと、コグニザントダストをドロップします。",
     "enchantment.mysticalagriculture.soul_siphoner": "魂収集",
-    "enchantment.mysticalagriculture.soul_siphoner.desc": "Mobを倒したとき、収集できる魂がレベル毎に10%増加します。",
+    "enchantment.mysticalagriculture.soul_siphoner.desc": "Mobを倒したとき、収集できる魂の量がレベルごとに10%ずつ増加します。",
   
     "tooltip.mysticalagriculture.empty": "空",
     "tooltip.mysticalagriculture.tier": "ランク：%s",
@@ -335,6 +335,7 @@
     "mobSoulType.mysticalagriculture.fish": "魚",
     "mobSoulType.mysticalagriculture.slime": "スライム",
     "mobSoulType.mysticalagriculture.zombie": "ゾンビ",
+    "mobSoulType.mysticalagriculture.skeleton": "スケルトン",
     "mobSoulType.mysticalagriculture.spider": "クモ",
   
     "crop.mysticalagriculture.air": "風",
@@ -478,7 +479,7 @@
     "crop.mysticalagriculture.starmetal": "Starmetal",
     "crop.mysticalagriculture.rock_crystal": "Rock Crystal",
   
-    "crop.mysticalagriculture.compressed_iron": "Compressed Iron",
+    "crop.mysticalagriculture.compressed_iron": "圧縮鉄",
   
     "crop.mysticalagriculture.draconium": "Draconium",
   
@@ -512,7 +513,7 @@
     "augmentType.mysticalagriculture.boots": "ブーツ",
   
     "augment.mysticalagriculture.absorption_i": "衝撃吸収 I",
-    "augment.mysticalagriculture.absorption_i.description": "ハート2個分の衝撃吸収を付与します。",
+    "augment.mysticalagriculture.absorption_i.description": "8分ごとにハート2個分の衝撃吸収を付与します。",
     "augment.mysticalagriculture.luck_i": "幸運 I",
     "augment.mysticalagriculture.luck_i.description": "幸運 Iを付与します。",
     "augment.mysticalagriculture.health_boost_i": "体力増強 I",
@@ -527,7 +528,7 @@
     "augment.mysticalagriculture.water_breathing": "水中呼吸",
     "augment.mysticalagriculture.water_breathing.description": "水中呼吸を付与します。",
     "augment.mysticalagriculture.absorption_ii": "衝撃吸収 II",
-    "augment.mysticalagriculture.absorption_ii.description": "ハート4個分の衝撃吸収を付与します。",
+    "augment.mysticalagriculture.absorption_ii.description": "8分ごとにハート4個分の衝撃吸収を付与します。",
     "augment.mysticalagriculture.jump_boost_i": "跳躍力上昇 I",
     "augment.mysticalagriculture.jump_boost_i.description": "跳躍力上昇 Iを付与します。",
     "augment.mysticalagriculture.health_boost_ii": "体力増強 II",
@@ -544,7 +545,7 @@
     "augment.mysticalagriculture.blindness_resistance.description": "盲目の効果を防ぎます。",
   
     "augment.mysticalagriculture.absorption_iii": "衝撃吸収 III",
-    "augment.mysticalagriculture.absorption_iii.description": "ハート6個分の衝撃吸収を付与します。",
+    "augment.mysticalagriculture.absorption_iii.description": "8分ごとにハート6個分の衝撃吸収を付与します。",
     "augment.mysticalagriculture.luck_ii": "幸運 II",
     "augment.mysticalagriculture.luck_ii.description": "幸運 IIを付与します。",
     "augment.mysticalagriculture.fire_resistance": "火炎耐性",
@@ -579,7 +580,7 @@
     "augment.mysticalagriculture.slowness_resistance.description": "移動速度低下の効果を防ぎます。",
   
     "augment.mysticalagriculture.absorption_iv": "衝撃吸収 IV",
-    "augment.mysticalagriculture.absorption_iv.description": "ハート8個分の衝撃吸収を付与します。",
+    "augment.mysticalagriculture.absorption_iv.description": "8分ごとにハート8個分の衝撃吸収を付与します。",
     "augment.mysticalagriculture.poison_resistance": "毒耐性",
     "augment.mysticalagriculture.poison_resistance.description": "毒の効果を防ぎます。",
     "augment.mysticalagriculture.jump_boost_iii": "跳躍力上昇 III",
@@ -606,7 +607,7 @@
     "augment.mysticalagriculture.hunger_resistance.description": "空腹の効果を防ぎます。",
   
     "augment.mysticalagriculture.absorption_v": "衝撃吸収 V",
-    "augment.mysticalagriculture.absorption_v.description": "ハート10個分の衝撃吸収を付与します。",
+    "augment.mysticalagriculture.absorption_v.description": "8分ごとにハート10個分の衝撃吸収を付与します。",
     "augment.mysticalagriculture.luck_iii": "幸運 III",
     "augment.mysticalagriculture.luck_iii.description": "幸運 IIIを付与します。",
     "augment.mysticalagriculture.wither_resistance": "衰弱耐性",
@@ -703,7 +704,7 @@
     "book.mysticalagriculture.entry.enchanter.page.1": "エンチャンターは、様々なクラフト素材と経験値のエッセンスを使用して道具や防具にエンチャントを付与できるブロックです。$(br2)エンチャンターは金床と同様、本と道具／防具の両方にエンチャントを付与することができます。",
   
     "book.mysticalagriculture.entry.elemental_essences": "元素のエッセンス",
-    "book.mysticalagriculture.entry.elemental_essences.page.1": "風、地、水、火のエッセンスは、$(l:elemental/awakening_altar)覚醒の祭壇$()のレシピで$(l:elemental/essence_vessel)エッセンスの器$()に入れて使用します。",
+    "book.mysticalagriculture.entry.elemental_essences.page.1": "風、地、水、火のエッセンスは、$(l:elemental/awakening_altar)覚醒の祭壇$()のレシピで$(l:elemental/essence_vessel)エッセンスの器$()に入れて使用します。$(br2)元素の種は、$(l:basics/essence_farmland)ランク1のエッセンスの耕地$()に植えると、追加のドロップを得られます。",
     "book.mysticalagriculture.entry.cognizant_dust": "コグニザントダスト",
     "book.mysticalagriculture.entry.cognizant_dust.page.1": "コグニザントダストは$(bold)通常$()、神秘の啓示のエンチャントが付与された$(l:tinkering/essence_tools)エッセンスの武器$()で、ウィザーやエンダードラゴンを倒したときにドロップします。$(br2)神秘の啓示のレベルが高いほど、倒したときにドロップするダストの量が増加します。",
     "book.mysticalagriculture.entry.essence_vessel": "エッセンスの器",
@@ -740,7 +741,7 @@
     "book.mysticalagriculture.entry.augments.page.2": "各オーグメントの効果は、このガイドの「オーグメント」セクションで確認できます。",
   
     "book.mysticalagriculture.entry.absorption_augment": "衝撃吸収のオーグメント",
-    "book.mysticalagriculture.entry.absorption_augment.page.1": "衝撃吸収のオーグメントは、8分毎に着用者にハート2-10個分の衝撃吸収を付与する防具用のオーグメントです。",
+    "book.mysticalagriculture.entry.absorption_augment.page.1": "衝撃吸収のオーグメントは、8分ごとに着用者にハート2-10個分の衝撃吸収を付与する防具用のオーグメントです。",
     "book.mysticalagriculture.entry.health_boost_augment": "体力増強のオーグメント",
     "book.mysticalagriculture.entry.health_boost_augment.page.1": "体力増強のオーグメントは、着用者の体力をハート2-10個分増加させる防具用のオーグメントです。",
     "book.mysticalagriculture.entry.night_vision_augment": "暗視のオーグメント",
